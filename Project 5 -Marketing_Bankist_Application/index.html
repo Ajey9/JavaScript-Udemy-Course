@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="images/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bankist | A Secure and Peaceful Banking</title>
+  </head>
+
+  <script defer src="script.js"></script>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="images/logo1.png"
+          alt="Bankist Logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--button button--show-modal" href="#"
+              >Open Account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          When
+          <span class="highlight">Banking</span>
+          meets<br />
+          <span class="highlight">First-Class</span>
+        </h1>
+        <h4>An incredible banking experience for an amazing life</h4>
+        <button class="button--text button--scroll-to">
+          Let's Find out more &DownArrow;
+        </button>
+        <img
+          src="images/rupee.png"
+          class="header__image"
+          alt="Soothing bank
+        items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">Everything you want in a bank</h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="images/digital-lazy.jpg"
+          data-src="images/digital.jpg"
+          alt="Computer"
+          class="features__image lazy-image"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Pure Digital Banking</h5>
+          <p>Always striving to give best banking experience</p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg><use xlink:href="images/icons.svg#icon-trending-up"</svg>
+          </div>
+          <h5 class="features__header">Watch your money growing</h5>
+          <p>Invest money and Let it Grow!</p>
+        </div>
+        <img
+          src="images/grow-lazy.jpg"
+          data-src="images/grow.jpg"
+          alt="Plant"
+          class="features__image lazy-image"
+        />
+
+        <img
+          src="images/card-lazy.jpg"
+          data-src="images/card.jpg"
+          alt="Credit Card"
+          class="features__image lazy-image"
+        />
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free Debit Card included</h5>
+          <p>
+            Use your personlized Debit Card for all the transactions,
+            internationals also!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">Everything as simple as 1,2,3,4...</h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="button operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button
+            class="button operations__tab operations__tab--2"
+            data-tab="2"
+          >
+            <span>02</span>Fast Loan
+          </button>
+          <button
+            class="button operations__tab operations__tab--3"
+            data-tab="3"
+          >
+            <span>03</span>Fast Closing
+          </button>
+        </div>
+
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Transfer money to anyone, within seconds! No Hidden and additional
+            fees
+          </h5>
+          <p>Transfer money to anyone in the world within matter of seconds</p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Take your dream home with fast loans
+          </h5>
+          <p>
+            Take loans with simple and fast procedures, disbursement of loans as
+            quick as possible
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Don't want account anymore? Close it quickly
+          </h5>
+          <p>You can close your account within just 1 working day</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Thousands of consumers are expreriencing the fantastic banking
+          experience and are satiesfied using our bannking services
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Now I am not gonna open any other bank account...
+            </h5>
+            <blockquote class="testimonial__text">
+              I was buying home and needed home loan for it. When I came to do
+              the inquiry in the bank, the bank executive gave thorough
+              knowledge about all the terms and conditions of home loan, He
+              assisted me with all the documents which were required for home
+              loan. And within 10 working days, my home loan was passed with
+              fluctuating interest rates. I am content with the service, I will
+              absolutely recommend this bank to my people.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="images/Deepak Gathadi.jpg"
+                alt="Deepak Gathadi"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Deepak Dattatray Gathadi</h6>
+              <p class="testimonial__location">Kalyan, Maharashtra, India</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The bank service the way I wanted
+            </h5>
+            <blockquote class="testimonial__text">
+              I am a housewife. I didn't had much knowledge about this bank. My
+              husband took me to open the account in this bank as he has been
+              receiving brilliant service from bank. I didn't use the account
+              before, and now as I have received the customized debit card and
+              my UPI ID, now I am using UPI everywhere in gorcery shops, to pay
+              to the street Vegetable stalls and using card while shopping and
+              carrying much less cash with me.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="images/Geeta Gathadi.jpg"
+                alt="Geeta Deepak Gathadi"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Geeta Deepak Gathadi</h6>
+              <p class="testimonial__location">Kalyan, Maharashtra, India</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              This is now my primary bank account..
+            </h5>
+            <blockquote class="testimonial__text">
+              I was using other bank account but I was not satiesfied with the
+              service. I have had heard positive experiences of people after
+              using this banking services, so I also thoght let's check it out
+              and this was great decision. From opening account to Investment
+              guidance, attractive interest rates of deposits, no Hidden fees,
+              time to time statement sharing and all the doubts I have I can
+              just call the bank and they provide all the time and attention
+              they need to solve my issue. I am really amazed by the service by
+              GBL. I have already shared this my people and have recommeded them
+              to open account in GBL
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="images/Aditya Borhade.jpeg"
+                alt="Aditya Borhade"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Aditya Borhade</h6>
+              <p class="testimonial__location">
+                Ulhasnagar, Maharashtra, India
+              </p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--4">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finest banking service ever experienced
+            </h5>
+            <blockquote class="testimonial__text">
+              I just opened GBL account.And while opening the account, I have
+              received Finest assistance by banking executive. I am 24 years old
+              child and do not have much knowledge about all these banking
+              stuff. I receive money from father, granny and others and I just
+              know how to spend it on dresses and Dairy Milk Choclates every
+              month. Now I will be able to pay the money online. I am soo
+              delighted by the service I have received.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="images/Rutu.jpg"
+                alt="Rutu"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Rutu Manjunath Shastri</h6>
+              <p class="testimonial__location">Kumta, Karnataka, India</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__button slider__button--left">&larr;</button>
+        <button class="slider__button slider__button--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join GBL was when it opened, the second best is now!
+        </h3>
+      </div>
+      <button class="button button--show-modal">Open your account today</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+
+      <img src="images/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link LinkedIn-link"
+          target="_blank"
+          href="www.linkedin.com/in/ajay-gathadi-2779717a"
+        >
+          Ajay Gathadi.</a
+        >
+        This application has been developed for Practice Purpose.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="button--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">2 Minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="button">Next Step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>

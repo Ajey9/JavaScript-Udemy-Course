@@ -1,0 +1,42 @@
+
+const featureDescription = document.querySelector(".section__description");
+console.log(`featureDescription: ` + featureDescription);
+
+const featureDescription_Coordinates =
+  featureDescription.getBoundingClientRect();
+console.log(featureDescription_Coordinates);
+
+const buttonScrollToCoordinates = buttonScrollTo.getBoundingClientRect();
+console.log(buttonScrollToCoordinates);
+console.log(
+  `Height : ${document.documentElement.clientHeight}, Width : ${document.documentElement.clientWidth}`
+);
+
+
+ console.log(document.querySelector("h1").children);
+.querySelectorAll(".highlight"));
+
+
+  const section1_Coordinates = section1.getBoundingClientRect();
+  console.log(section1Coordinates);
+  console.log(e.target.getBoundingClientRect());
+
+  window.scrollTo(
+    section1_Coordinates.left + window.pageXOffset,
+    section1_Coordinates.top + window.pageYOffset
+  );
+
+  window.scrollTo({
+    left: section1_Coordinates.left + window.pageXOffset,
+    top: section1_Coordinates.top + window.pageYOffset,
+    behavior: "smooth",
+  });
+
+
+
+  document.querySelector(".header").addEventListener("click", function (e) {
+  e.preventDefault();
+
+  this.style.backgroundColor = "black";
+  console.log(e.target, e.currentTarget);
+});
